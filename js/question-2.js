@@ -17,9 +17,7 @@ async function games() {
 
       console.log(`Name: ${game.name} | Rating: ${game.rating}, nr. of tags: ${game.tags.length}`);
 
-      if (i === 8) {
-        break;
-      }
+      if (i === 8) break;
 
       gameContainer.innerHTML +=
         `<div class="game">
